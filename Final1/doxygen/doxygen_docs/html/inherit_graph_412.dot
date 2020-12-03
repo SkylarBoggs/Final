@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="vhdl::parser::Token",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/de7/classvhdl_1_1parser_1_1_token.html",tooltip="Describes the input token stream."];
+}

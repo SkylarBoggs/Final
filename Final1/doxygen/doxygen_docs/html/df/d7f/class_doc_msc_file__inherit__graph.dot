@@ -1,0 +1,15 @@
+digraph "DocMscFile"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="DocMscFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Node representing a msc file."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CompAccept\< DocMscFile \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/da3/class_comp_accept.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DocNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d0e/class_doc_node.html",tooltip="Abstract node interface with type information."];
+  Node4 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< DocMscFile \>" ,fontname="Helvetica"];
+  Node4 [label="CompAccept\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/da3/class_comp_accept.html",tooltip="Default accept implementation for compound nodes in the abstract syntax tree."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

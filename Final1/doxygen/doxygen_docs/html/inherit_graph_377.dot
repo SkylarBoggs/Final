@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="TemplateListIntf::ConstIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d23/class_template_list_intf_1_1_const_iterator.html",tooltip="Abstract interface for a iterator of a list."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="GenericConstIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d6e/class_generic_const_iterator.html",tooltip="Template List iterator support."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TemplateListConstIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/df0/class_template_list_const_iterator.html",tooltip=" "];
+}

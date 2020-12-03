@@ -1,0 +1,25 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Definition::Cookie",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d2f/struct_definition_1_1_cookie.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="DefinitionContext\<\l T \>::Cachable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d7b/struct_definition_context_1_1_cachable.html",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ClassContext::Private\l::Cachable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dc4/struct_class_context_1_1_private_1_1_cachable.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DirContext::Private\l::Cachable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d0e/struct_dir_context_1_1_private_1_1_cachable.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="FileContext::Private\l::Cachable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8e/struct_file_context_1_1_private_1_1_cachable.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MemberContext::Private\l::Cachable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d88/struct_member_context_1_1_private_1_1_cachable.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ModuleContext::Private\l::Cachable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/deb/struct_module_context_1_1_private_1_1_cachable.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="NamespaceContext::Private\l::Cachable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d10/struct_namespace_context_1_1_private_1_1_cachable.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="PageContext::Private\l::Cachable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/de3/struct_page_context_1_1_private_1_1_cachable.html",tooltip=" "];
+}

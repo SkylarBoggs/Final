@@ -1,0 +1,27 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node351 [label="QListIterator",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node351 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="AlphaIndexTableRowsIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d7d/class_alpha_index_table_rows_iterator.html",tooltip="Iterator for the cells in a row of the alphabetical class index."];
+  Node351 -> Node353 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node353 [label="ClassListIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dd1/class_class_list_iterator.html",tooltip="An iterator for ClassDef objects in a ClassList."];
+  Node351 -> Node354 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node354 [label="DefinitionListIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d0b/class_definition_list_iterator.html",tooltip="An iterator for Definition objects in a DefinitionList."];
+  Node351 -> Node355 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node355 [label="DiagramRowIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d0b/class_diagram_row_iterator.html",tooltip="Class representing iterator for the rows in the built-in class diagram."];
+  Node351 -> Node356 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node356 [label="GroupListIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dc4/class_group_list_iterator.html",tooltip="An iterator for GroupDef objects in a GroupList."];
+  Node351 -> Node357 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node357 [label="HtmlAttribListIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dfa/class_html_attrib_list_iterator.html",tooltip="Html attribute list iterator."];
+  Node351 -> Node358 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node358 [label="MemberGroupListIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7e/class_member_group_list_iterator.html",tooltip="An iterator for MemberGroup objects in a MemberGroupList."];
+  Node351 -> Node359 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node359 [label="MemberListIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d3c/class_member_list_iterator.html",tooltip="An iterator for MemberDef objects in a MemberList."];
+  Node351 -> Node360 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node360 [label="NamespaceListIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5a/class_namespace_list_iterator.html",tooltip="An iterator for NamespaceDef objects in a NamespaceList."];
+}

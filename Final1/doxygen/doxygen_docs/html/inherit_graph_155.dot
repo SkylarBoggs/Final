@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="htmlEntityInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d34/structhtml_entity_info.html",tooltip="Structure defining all HTML4 entities, doxygen extensions and doxygen commands representing special s..."];
+}

@@ -1,0 +1,25 @@
+digraph "NamespaceContext::Private"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NamespaceContext::Private",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DefinitionContext\<\l NamespaceContext::Private \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d49/class_definition_context.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_def" ,fontname="Helvetica"];
+  Node3 [label="Definition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dcc/class_definition.html",tooltip="The common base class of all entity definitions found in the sources."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="DefinitionIntf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d4a/class_definition_intf.html",tooltip="Abstract interface for a Definition or DefinitionList."];
+  Node5 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< NamespaceContext\l::Private \>" ,fontname="Helvetica"];
+  Node5 [label="DefinitionContext\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d49/class_definition_context.html",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_def" ,fontname="Helvetica"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_namespaceDef" ,fontname="Helvetica"];
+  Node6 [label="NamespaceDef",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d07/class_namespace_def.html",tooltip="An abstract interface of a namespace symbol."];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" s_inst" ,fontname="Helvetica"];
+  Node7 [label="PropertyMapper\< Namespace\lContext::Private \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d80/class_property_mapper.html",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< NamespaceContext\l::Private \>" ,fontname="Helvetica"];
+  Node8 [label="PropertyMapper\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d80/class_property_mapper.html",tooltip="Helper class to map a property name to a handler member function."];
+}

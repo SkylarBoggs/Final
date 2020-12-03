@@ -1,0 +1,27 @@
+digraph "DefinitionImpl"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DefinitionImpl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Definition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dcc/class_definition.html",tooltip="The common base class of all entity definitions found in the sources."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DefinitionIntf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d4a/class_definition_intf.html",tooltip="Abstract interface for a Definition or DefinitionList."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ClassDefImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d25/class_class_def_impl.html",tooltip="Implementation of the ClassDef interface."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="DirDefImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/db7/class_dir_def_impl.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="FileDefImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d14/class_file_def_impl.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="GroupDefImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d22/class_group_def_impl.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="MemberDefImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d7e/class_member_def_impl.html",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="NamespaceDefImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dfa/class_namespace_def_impl.html",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="PageDefImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/de8/class_page_def_impl.html",tooltip=" "];
+}

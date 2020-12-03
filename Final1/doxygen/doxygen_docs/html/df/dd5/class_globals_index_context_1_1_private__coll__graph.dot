@@ -1,0 +1,25 @@
+digraph "GlobalsIndexContext::Private"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="GlobalsIndexContext\l::Private",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_cache" ,fontname="Helvetica"];
+  Node2 [label="GlobalsIndexContext\l::Private::Cachable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dfb/struct_globals_index_context_1_1_private_1_1_cachable.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" all\nenumValues\nenums\nfunctions\nmacros\ntypedefs\nvariables" ,fontname="Helvetica"];
+  Node3 [label="SharedPtr\< TemplateList \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d12/class_shared_ptr.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_ptr" ,fontname="Helvetica"];
+  Node4 [label="TemplateList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dab/class_template_list.html",tooltip="Default implementation of a context value of type list."];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TemplateListIntf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d88/class_template_list_intf.html",tooltip="Abstract read-only interface for a context value of type list."];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" p" ,fontname="Helvetica"];
+  Node6 [label="TemplateList::Private",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dee/class_template_list_1_1_private.html",tooltip="Private data of a template list object."];
+  Node7 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< TemplateList \>" ,fontname="Helvetica"];
+  Node7 [label="SharedPtr\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d12/class_shared_ptr.html",tooltip="Reference counting smart pointer."];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" s_inst" ,fontname="Helvetica"];
+  Node8 [label="PropertyMapper\< GlobalsIndex\lContext::Private \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d80/class_property_mapper.html",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< GlobalsIndexContext\l::Private \>" ,fontname="Helvetica"];
+  Node9 [label="PropertyMapper\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d80/class_property_mapper.html",tooltip="Helper class to map a property name to a handler member function."];
+}

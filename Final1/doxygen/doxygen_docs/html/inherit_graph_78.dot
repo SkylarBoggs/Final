@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="DocParserContext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d7d/struct_doc_parser_context.html",tooltip="Parser's context to store all global variables."];
+}

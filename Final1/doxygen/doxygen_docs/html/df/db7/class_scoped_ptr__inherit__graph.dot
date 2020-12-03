@@ -1,0 +1,23 @@
+digraph "ScopedPtr&lt; T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ScopedPtr\< T \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Scoped smart pointer."];
+  Node1 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< DotCallGraph \>" ,fontname="Helvetica"];
+  Node2 [label="ScopedPtr\< DotCallGraph \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_scoped_ptr.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< DotGfxHierarchyTable \>" ,fontname="Helvetica"];
+  Node3 [label="ScopedPtr\< DotGfxHierarchy\lTable \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_scoped_ptr.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< DotClassGraph \>" ,fontname="Helvetica"];
+  Node4 [label="ScopedPtr\< DotClassGraph \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_scoped_ptr.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< DotGroupCollaboration \>" ,fontname="Helvetica"];
+  Node5 [label="ScopedPtr\< DotGroupCollaboration \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_scoped_ptr.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< TemplateVariant \>" ,fontname="Helvetica"];
+  Node6 [label="ScopedPtr\< TemplateVariant \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_scoped_ptr.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< DotInclDepGraph \>" ,fontname="Helvetica"];
+  Node7 [label="ScopedPtr\< DotInclDepGraph \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_scoped_ptr.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< DotDirDeps \>" ,fontname="Helvetica"];
+  Node8 [label="ScopedPtr\< DotDirDeps \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_scoped_ptr.html",tooltip=" "];
+}

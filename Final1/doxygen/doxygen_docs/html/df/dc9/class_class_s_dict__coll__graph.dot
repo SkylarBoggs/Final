@@ -1,0 +1,21 @@
+digraph "ClassSDict"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ClassSDict",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="A sorted dictionary of ClassDef objects."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SDict\< ClassDef \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d50/class_s_dict.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_list" ,fontname="Helvetica"];
+  Node3 [label="SList\< ClassDef \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dce/class_s_list.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QList\< ClassDef \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_owner" ,fontname="Helvetica"];
+  Node5 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ClassDef \>" ,fontname="Helvetica"];
+  Node5 [label="SList\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dce/class_s_list.html",tooltip="internal wrapper class that redirects compareValues() to the dictionary"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QList\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< ClassDef \>" ,fontname="Helvetica"];
+  Node7 [label="SDict\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d50/class_s_dict.html",tooltip="Ordered dictionary of elements of type T."];
+}

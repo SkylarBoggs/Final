@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MemberGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d32/class_member_group.html",tooltip="A class representing a group of members."];
+}
